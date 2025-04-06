@@ -39,13 +39,13 @@ Essa abordagem balanceia precisão e abrangência nas sugestões.
     </td>
     <td>
       <a href="https://github.com/lukkspereiraa">
-        <img src="https://avatars.githubusercontent.com/@lukkspereiraa" width=100 />
-        <p>Lucas <br/>Pereira</p>
+        <img src="https://avatars.githubusercontent.com/lukkspereiraa" width=100 />
+        <p>Jonatas Silva <br/>da Mata</p>
       </a>
     </td>
+    <td>
       <a href="https://github.com/Rachelee18">
         <img src="https://avatars.githubusercontent.com/Rachelee18" width=100 />
-        <p>Raquel <br/>Medeiros</p>
+        <p>Jonatas Silva <br/>da Mata</p>
       </a>
-  </tr>
-</table>
+    </td>
