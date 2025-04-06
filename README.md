@@ -40,7 +40,7 @@ Essa abordagem balanceia precisão e abrangência nas sugestões.
     <td>
       <a href="https://github.com/lukkspereiraa">
         <img src="https://avatars.githubusercontent.com/@lukkspereiraa" width=100 />
-        <p>Emilly <br/>Jullyane</p>
+        <p>Lucas <br/>Pereira</p>
       </a>
     </td>
       <a href="https://github.com/Rachelee18">
@@ -48,3 +48,4 @@ Essa abordagem balanceia precisão e abrangência nas sugestões.
         <p>Raquel <br/>Medeiros</p>
       </a>
   </tr>
+</table>
