@@ -1,5 +1,14 @@
 # Correção Ortográfica com Distância de Levenshtein 
 
+## Índice
+
+1. [Descrição do Problema](#descrição-do-problema)
+2. [Solução com Programação Dinâmica](#solução-com-programação-dinâmica)
+3. [Análise de Complexidade](#analise-de-complexidade)
+4. [Escolha do Parâmetro X](#Escolha-do-Parâmetro-X)
+5. [Conclusão](#Conclusao)
+6. [Equipe](#Equipe)
+
 ## Descrição do Problema 
 A correção ortográfica é um desafio comum em aplicações que envolvem processamento de texto. O objetivo é sugerir palavras corretas para termos digitados incorretamente, baseando-se em um dicionário predefinido. Neste projeto, utilizamos a Distância de Levenshtein para medir a similaridade entre palavras e oferecer sugestões de correção.
 
@@ -22,11 +31,16 @@ Para buscas eficientes no dicionário, filtramos palavras de tamanhos próximos 
 
 ## Escolha do Parâmetro X 
 O limite X define a distância máxima aceitável para sugerir palavras semelhantes. 
-Escolhemos X = 2 baseado na análise empírica: essa margem cobre a maioria dos erros comuns de digitação sem incluir palavras excessivamente distantes. Esse valor pode ser ajustado conforme o tamanho da palavra: 
-- Para palavras curtas (até 4 caracteres), usamos X = 1. 
-- Para palavras longas (>10 caracteres), X pode ser aumentado para 3.
+Escolhemos X = 2 baseado na análise empírica: essa margem cobre a maioria dos erros comuns de digitação sem incluir palavras excessivamente distantes.
+
+- Um valor pequeno como 1 pode ser restritivo demais (exclui palavras parecidas com 2 erros de digitação).
+- Um valor grande como 3 ou mais pode gerar muitas sugestões irrelevantes.
+- O valor 2 representa um bom equilíbrio: considera erros comuns (como trocar duas letras, esquecer uma letra ou digitar uma letra errada) e ainda mantém o desempenho razoável, especialmente para dicionários grandes.
   
 Essa abordagem balanceia precisão e abrangência nas sugestões. 
+
+## Conclusão 
+O sistema implementado proporciona sugestões de correção eficientes e escaláveis. A otimização da memória e a seleção inteligente de candidatos tornam o algoritmo prático para aplicações reais, como corretores ortográficos e assistentes de texto. 
 
 ## Equipe
 <table align="center">
